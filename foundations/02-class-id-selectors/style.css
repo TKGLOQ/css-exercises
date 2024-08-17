@@ -1,0 +1,23 @@
+/* All odd-numbered <p> elements: light red/pink background, Verdana, DejaVu Sans, sans-serif fonts */
+p:nth-of-type(odd) {
+    background-color: hsl(340, 100%, 85%); /* Light red/pink background */
+    font-family: Verdana, "DejaVu Sans", sans-serif; /* Font list */
+}
+
+/* The second <div> element: blue text and a font size of 36px */
+div:nth-of-type(1) {
+    color: blue;
+    font-size: 36px;
+}
+
+/* The third <p> element: inherits styles from odd <p> elements and adds a font size of 24px */
+p:nth-of-type(3) {
+    font-size: 24px; /* Additional font size for the third <p> element */
+}
+
+/* The fourth <div> element: light green background, font size 24px, and bold text */
+div:nth-of-type(2) {
+    background-color: hsl(120, 73%, 75%); /* Light green background */
+    font-size: 24px;
+    font-weight: bold;
+}
